@@ -1,0 +1,10 @@
+name: Example workflow with email in step name
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f1002291@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
